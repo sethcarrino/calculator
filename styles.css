@@ -1,0 +1,118 @@
+/*Colors*/
+
+
+/*
+background - #64b255
+hover - #83c178
+border - #92c989
+number/letter - #ecf5ea
+right hand commands - #3f6337
+*/
+
+
+/*Main Styles*/
+
+body {
+  font-family: 'Helvetica', arial, sans-serif;
+  font-weight: lighter;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("images/einstein.jpg");
+  background-size: cover;
+}
+
+#wrapper {}
+
+#container {
+  padding-top: 5em;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+}
+
+
+/*Calculator Styles*/
+
+table {
+  background-color: #64b255;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 20px #000000;
+  width: 100%;
+}
+
+
+/*tr{
+  display: flex;
+  align-items: stretch;
+}*/
+
+input {
+  border: none;
+  background-color: transparent;
+  padding: 1.25em;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ecf5ea;
+  outline: none;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #92c989;
+}
+
+
+/*td:last-child{
+  flex: 1;
+  display: inline-block;
+}*/
+
+.divide {
+  background-color: #83c178;
+  color: #3f6337;
+}
+
+.divide:hover {
+  color: #ecf5ea;
+}
+
+.multiply {
+  background-color: #83c178;
+  color: #3f6337;
+}
+
+.multiply:hover {
+  color: #ecf5ea;
+}
+
+.subtract {
+  background-color: #83c178;
+  color: #3f6337;
+}
+
+.subtract:hover {
+  color: #ecf5ea;
+}
+
+.add {
+  background-color: #83c178;
+  color: #3f6337;
+}
+
+.add:hover {
+  color: #ecf5ea;
+}
+
+.clear:hover {
+  background-color: #83c178;
+}
+
+.equals {}
+
+.equals:hover {
+  background-color: #83c178;
+}
+
+.data {}
