@@ -3,7 +3,7 @@ var decimal = false;
 var display = '';
 
 function clearAnswer() {
-    answer.value = ' ';
+    answer.value = '';
     decimal = false;
     display = '';
 }
