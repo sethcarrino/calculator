@@ -16,11 +16,6 @@ function updateDisplay(keyPressed) {
             display = display + keyPressed;
             answer.value = display;
         }
-        if (keyPressed == '.') {
-            decimal = true;
-        } else if (isNaN(keyPressed)) {
-            decimal = false;
-        }
     }
 }
 
@@ -31,3 +26,8 @@ function displayTotal() {
         answer.value = total;
    }
 }
+
+
+/*The isNaN() function determines whether a value is NaN or not. Note: coercion inside the isNaN function has interesting rules; you may alternatively want to use Number.isNaN(), as defined in ECMAScript 2015, or you can use typeof to determine if the value is Not-A-Number.
+
+!= means not equal to*/
